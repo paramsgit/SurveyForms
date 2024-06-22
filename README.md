@@ -1,14 +1,5 @@
-# NewStation
-
-This single-page app fetches news data from the NewsAPI and provides a user-friendly interface for browsing and searching for news. It uses Tailwind CSS for styling and includes features like real-time news data and detailed pop-up modals.
-
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+# Survey Forms
+This repo contains 3 different types of forms. This project was created as a part of assignment.
 
 ## Getting Started
 
@@ -16,8 +7,8 @@ To run this app locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/paramsgit/newStation.git
-   cd newStation
+   git clone https://github.com/paramsgit/surveyforms.git
+   cd surveyforms
     ```
 2. Install the dependencies:
 
@@ -27,10 +18,9 @@ To run this app locally, follow these steps:
 3. Configure the News API:
 
 
-Create a .env file in the project root and add your API key:
-```REACT_APP_API=your_api_key_here```
-Also add endpoints to fetch data:
-```REACT_APP_NEWS_HEADLINE_URL=https://newsapi.org/v2/```
+Create a .env file in the project root and add your survey api link:
+```REACT_APP_API=https://opentdb.com/api.php```
+
 
 4. Run the development server:
 
@@ -38,16 +28,6 @@ Also add endpoints to fetch data:
 npm start
 ```
 Open your browser and go to http://localhost:3000 to use the app.
-
-## Features
-- Real-time News Data: Fetches the latest news articles from NewsAPI.
-- Search Functionality: Allows users to search for news articles based on keywords.
-- Detailed Pop-up Modals: Provides detailed views of each news article in a modal.
-- Responsive Design: Fully responsive layout using Tailwind CSS to ensure usability on different devices.
-- Bookmarking: Users can bookmark their favorite articles for later reference.
-- Dark Mode: Toggle between light and dark themes for better readability.
-- Pagination: Efficiently navigates through pages of news articles.
-- Loading Indicators: Visual feedback while fetching data to enhance user experience..
 
 ## Dependencies
 This app relies on the following major dependencies:
